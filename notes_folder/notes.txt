@@ -66,3 +66,12 @@ delegating the responsibility of instantiation to subclasses. This promotes flex
 and allows different subclasses to create different types of objects while adhering to 
 a common interface
 
+#++++++++++++++++++++++++++++++#
+#  Abstract Factory Pattern!   |
+#++++++++++++++++++++++++++++++#
+
+The Abstract Factory pattern is a design pattern that provides an interface for creating
+families of related or dependent objects without specifying their concrete classes. It 
+allows you to create objects that are related by a common theme or concept, such as creating 
+different types of products in a system.
+
