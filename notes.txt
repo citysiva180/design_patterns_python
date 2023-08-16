@@ -54,3 +54,15 @@ and provides a way to access that instance from any part of the code.
 - Testability issues 
 - State for life
 
+#+++++++++++++++++++++#
+#  Factory Pattern!   |
+#+++++++++++++++++++++#
+
+"The Factory Method is a design pattern that defines an interface for creating 
+objects in a super class, but allows subclasses to decide which class to instantiate."
+
+In other words, the Factory Method pattern provides a way to create objects by 
+delegating the responsibility of instantiation to subclasses. This promotes flexibility 
+and allows different subclasses to create different types of objects while adhering to 
+a common interface
+
