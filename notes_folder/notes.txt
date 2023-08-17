@@ -75,3 +75,12 @@ families of related or dependent objects without specifying their concrete class
 allows you to create objects that are related by a common theme or concept, such as creating 
 different types of products in a system.
 
+
+#+++++++++++++++++++++#
+#  Builder Pattern!   |
+#+++++++++++++++++++++#
+
+"The Builder Pattern is a design pattern that separates the construction of a 
+complex object from its representation, allowing the same construction process to 
+create different representations."
+
