@@ -20,6 +20,10 @@ if __name__ == "__main__":
 
     service2 = NetworkService(url="youtube.com", auth="abc123", cache=60000)
     service2.show()
+
+# you have the option to create different versions of the same class as instance.
+# Its not mandatory for all the objects to be added here
+
 # class NetworkService:
 #     def __init__(self):
 #         self.components = {}
