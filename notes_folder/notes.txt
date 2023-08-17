@@ -84,3 +84,23 @@ different types of products in a system.
 complex object from its representation, allowing the same construction process to 
 create different representations."
 
+In other words, the Builder Pattern provides a way to construct complex objects 
+step by step, enabling you to create different variations of the object by using 
+the same construction process. It promotes flexibility, reusability, and separation 
+of concerns in object creation.
+
+#+++++++++++++++++++++#
+#  Prototype Pattern! |
+#+++++++++++++++++++++#
+
+The Prototype Pattern is a creational design pattern that allows you to create 
+new objects by copying an existing instance, known as the prototype. It helps in 
+creating new objects with the same state as an existing object, avoiding the need 
+to explicitly define and initialize every attribute and property.
+
+An analogy for the Prototype Pattern is a photocopying machine. Imagine you have an 
+original document, and you want to create multiple copies of it. Instead of rewriting 
+the entire content for each copy, you can use a photocopying machine to duplicate the 
+original. Similarly, the Prototype Pattern allows you to create new objects by cloning 
+an existing object, which serves as the prototype.
+
