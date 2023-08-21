@@ -104,3 +104,33 @@ the entire content for each copy, you can use a photocopying machine to duplicat
 original. Similarly, the Prototype Pattern allows you to create new objects by cloning 
 an existing object, which serves as the prototype.
 
+#+++++++++++++++++++++#
+#  Adapter Pattern!   |
+#+++++++++++++++++++++#
+
+The Adapter Pattern is a structural design pattern that allows objects with incompatible 
+interfaces to work together. It acts as a bridge between two incompatible interfaces, 
+making them compatible and enabling them to collaborate without changing their existing 
+code.
+
+An analogy for the Adapter Pattern is a power adapter. Consider that you have a device 
+with a plug designed for one type of electrical outlet, but you're in a region with a 
+different type of outlet. You use a power adapter to bridge the gap and connect your 
+device to the foreign outlet. Similarly, the Adapter Pattern allows objects with different 
+interfaces to communicate and interact seamlessly.
+
+
+#+++++++++++++++++++++#
+#  Bridge Pattern!    |
+#+++++++++++++++++++++#
+
+Certainly! The Bridge Pattern is a structural design pattern that separates abstraction 
+from implementation. It allows you to create a bridge between two orthogonal (independent) 
+abstractions, enabling them to vary independently. This pattern is especially useful when 
+you have multiple dimensions of variability that need to be managed independently.
+
+An analogy for the Bridge Pattern is a TV remote control. The remote control acts as a 
+bridge between the user and the TV. Regardless of the TV's brand or model, the user can 
+change channels, adjust the volume, and perform other actions using the remote control.
+The bridge pattern similarly allows you to decouple abstractions (e.g., user actions) 
+from their implementations (e.g., TV models).
