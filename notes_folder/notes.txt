@@ -119,7 +119,6 @@ different type of outlet. You use a power adapter to bridge the gap and connect 
 device to the foreign outlet. Similarly, the Adapter Pattern allows objects with different 
 interfaces to communicate and interact seamlessly.
 
-
 #+++++++++++++++++++++#
 #  Bridge Pattern!    |
 #+++++++++++++++++++++#
