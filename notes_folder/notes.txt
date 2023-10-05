@@ -133,3 +133,40 @@ bridge between the user and the TV. Regardless of the TV's brand or model, the u
 change channels, adjust the volume, and perform other actions using the remote control.
 The bridge pattern similarly allows you to decouple abstractions (e.g., user actions) 
 from their implementations (e.g., TV models).
+
+#+++++++++++++++++++++#
+# Composite Pattern!  |
+#+++++++++++++++++++++#
+
+The Composite Design Pattern is a structural design pattern that lets you compose objects 
+into tree structures to represent part-whole hierarchies. It allows clients to treat 
+individual objects and compositions of objects uniformly.
+
+An analogy for the Composite Pattern is a computer file system. In a file system, a 
+directory can contain files and subdirectories, which can, in turn, contain more files and 
+subdirectories. You can perform operations like copying, moving, or deleting on both 
+individual files and entire directories. The Composite Pattern similarly allows you 
+to treat individual objects and compositions (combinations) of objects uniformly.
+
+Here's how the Composite Pattern works:
+
+Component: 
+
+    This is the base interface or abstract class that declares common operations 
+    for both leaf and composite objects. It defines methods that can be used uniformly 
+    across all objects in the hierarchy.
+
+Leaf: 
+    
+    These are the individual objects that don't have any children. They implement the 
+    methods declared in the component interface. In a file system example, 
+    files are leaf objects.
+
+Composite: 
+    
+    These are objects that can have children, which can be either leaves or other 
+    composites. Composites implement the component interface as well as methods for 
+    adding, removing, and accessing children.
+
+Its more like a company where all people are employees but you have manager, vp and senior vp 
+etc 
