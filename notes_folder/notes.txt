@@ -170,3 +170,39 @@ Composite:
 
 Its more like a company where all people are employees but you have manager, vp and senior vp 
 etc 
+
+#+++++++++++++++++++++#
+# Decorator Pattern!  |
+#+++++++++++++++++++++#
+
+Certainly! The Decorator Pattern is a structural design pattern that allows you to add 
+new behaviors or responsibilities to objects without altering their existing code. It is 
+often used to extend the functionalities of classes in a flexible and reusable way.
+
+An analogy for the Decorator Pattern is decorating a room. Imagine you have a plain 
+room, and you want to add decorations like paintings, curtains, and furniture. You can 
+add or remove these decorations without changing the structure of the room itself. Similarly, 
+the Decorator Pattern allows you to add new features or responsibilities to objects without 
+modifying their core functionality.
+
+Here's how the Decorator Pattern works:
+
+Component: 
+
+    This is the base interface or abstract class that defines the common methods 
+    for all concrete components.
+
+Concrete Component: 
+
+    This is the base class that implements the component interface. It represents the 
+    core object to which you want to add functionalities.
+
+Decorator: 
+
+    This is the abstract class that also implements the component interface. It has 
+    a reference to a component and can dynamically add or override its behaviors.
+
+Concrete Decorator: 
+    
+    These are the concrete classes that extend the decorator. They add specific 
+    behaviors or responsibilities to the component.
