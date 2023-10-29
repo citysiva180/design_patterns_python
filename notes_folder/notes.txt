@@ -238,3 +238,14 @@ Subsystems:
     
     These are the individual classes or components that make up the complex system. 
 Clients typically interact with these subsystem classes through the facade
+
+
+
+#++++++++++++++++++++++++++++#
+#  Flyweight Design Pattern! |
+#++++++++++++++++++++++++++++#
+
+The Flyweight Design Pattern is a structural design pattern that is used to minimize 
+memory or computational costs associated with creating and managing a large number of 
+objects with similar properties. It does this by sharing as much as possible between 
+these objects, thereby reducing memory usage and improving performance.
