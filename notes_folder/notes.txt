@@ -249,3 +249,13 @@ The Flyweight Design Pattern is a structural design pattern that is used to mini
 memory or computational costs associated with creating and managing a large number of 
 objects with similar properties. It does this by sharing as much as possible between 
 these objects, thereby reducing memory usage and improving performance.
+
+
+#++++++++++++++++++++++++#
+#  Proxy Design Pattern! |
+#++++++++++++++++++++++++#
+
+Proxy pattern provides a substitute for another object and controls 
+access to that object, allowing you to perform something before 
+or after the request reaches the original object 
+
