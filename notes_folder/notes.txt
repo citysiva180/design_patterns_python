@@ -316,3 +316,13 @@ elements of an aggregate object sequentially without exposing its underlying rep
 It defines a separate object, called an iterator, which encapsulates the traversal of the 
 elements of the aggregate.
 
+#+++++++++++++++++++++++++++#
+#  Mediator Design Pattern! |
+#+++++++++++++++++++++++++++#
+
+This pattern is some what similar to command pattern. however there is no queue involved 
+
+- Provide a central object used for communicating between objects 
+- Objects don't talk to each other 
+- Reduce Dependency between Object 
+
