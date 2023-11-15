@@ -300,5 +300,19 @@ Concepts of Interpreter Pattern
     - Terminal Expression 
     - Non-Terminal Expression 
 
+#+++++++++++++++++++++++++++#
+#  Iterator Design Pattern! |
+#+++++++++++++++++++++++++++#
 
+Iterator Traverses through a collection. Meaning its a glorified loop which works 
+on classes and functions. Iterator consists of classes which reverses and sorts an elements. 
+The Idea of an iterator pattern is to traverse, meaning loop through individual elements in a 
+sequential way. The reason this pattern is chosen instead of a traditional loop is this pattern 
+stays unrelated to any collections elements. So basically a binary tree is implemented by 
+which speed in traverse is achieved.
+
+The Iterator Design Pattern is a behavioral design pattern that provides a way to access 
+elements of an aggregate object sequentially without exposing its underlying representation. 
+It defines a separate object, called an iterator, which encapsulates the traversal of the 
+elements of the aggregate.
 
