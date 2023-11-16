@@ -364,5 +364,37 @@ its internal state).
  and makes them interchangeable. It lets the client code vary its behavior without changing its structure. The pattern 
  defines a set of algorithms, encapsulates each one, and makes them interchangeable.
 
- 
+#+++++++++++++++++++++++++#
+# Visitor Design Pattern! |
+#+++++++++++++++++++++++++#
 
+The Visitor Design Pattern is a behavioral design pattern that allows you to define a new operation without 
+changing the classes of the elements on which it operates. It is often used when you have a set of related classes that 
+represent a hierarchy of objects, and you want to perform operations on these objects that are not part of their common interface.
+
+Key Participants:
+
+Visitor: 
+
+    Defines a Visit operation for each class of ConcreteElement in the object structure. 
+    The Visit operation signature typically includes the type of ConcreteElement being visited.
+
+ConcreteVisitor: 
+    
+    Implements the Visit operation for each class of ConcreteElement. 
+    This class is responsible for the actual processing or manipulation of the elements.
+
+Element: 
+
+    Declares an Accept operation that accepts a visitor. 
+    This operation is the entry point for the visitor to access the element.
+
+ConcreteElement: 
+
+    Implements the Accept operation. This operation typically calls the 
+    Visit method on the visitor, passing itself as an argument.
+
+ObjectStructure: 
+
+    Represents a collection or structure of elements that need to be visited. 
+    It provides an interface to allow visitors to visit its elements.
