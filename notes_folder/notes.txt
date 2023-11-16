@@ -326,3 +326,10 @@ This pattern is some what similar to command pattern. however there is no queue 
 - Objects don't talk to each other 
 - Reduce Dependency between Object 
 
+#+++++++++++++++++++++++++++#
+#  Observer Design Pattern! |
+#+++++++++++++++++++++++++++#
+
+- Define a subscription mechanism 
+- Notify multiple objects simultaneously 
+- One to Many Relationships 
