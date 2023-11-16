@@ -330,6 +330,18 @@ This pattern is some what similar to command pattern. however there is no queue 
 #  Observer Design Pattern! |
 #+++++++++++++++++++++++++++#
 
+The Observer Design Pattern is a behavioral design pattern where an object, known as the subject, maintains a list of 
+dependents, known as observers, that are notified of any changes in the subject's state. This pattern is commonly 
+used to implement distributed event handling systems.
+
+Key Participants:
+
+Subject: Maintains a list of observers and provides methods to attach, detach, and notify observers of state changes.
+Observer: Defines an interface for receiving updates from the subject.
+ConcreteSubject: Implements the Subject interface and maintains the state that observers are interested in. 
+It notifies observers of changes in its state.
+ConcreteObserver: Implements the Observer interface and registers with the subject to receive updates.
+
 - Define a subscription mechanism 
 - Notify multiple objects simultaneously 
 - One to Many Relationships 
