@@ -357,6 +357,12 @@ add new states and transitions between states without modifying the context (the
 its internal state).
 
 #+++++++++++++++++++++++++++#
-#  Strategy Design Pattern!  |
+#  Strategy Design Pattern! |
 #+++++++++++++++++++++++++++#
+
+ The Strategy Design Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each algorithm, 
+ and makes them interchangeable. It lets the client code vary its behavior without changing its structure. The pattern 
+ defines a set of algorithms, encapsulates each one, and makes them interchangeable.
+
+ 
 
