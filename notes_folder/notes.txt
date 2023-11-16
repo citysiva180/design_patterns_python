@@ -345,3 +345,7 @@ ConcreteObserver: Implements the Observer interface and registers with the subje
 - Define a subscription mechanism 
 - Notify multiple objects simultaneously 
 - One to Many Relationships 
+
+#+++++++++++++++++++++++++++#
+#  State Design Pattern!    |
+#+++++++++++++++++++++++++++#
